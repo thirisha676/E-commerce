@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/authentication.css">
+</head>
+<body>
+    <div class="login_section">
+        <div class="login_wrapper">
+            <div class="login_div">
+                <p>Login</p>
+            </div>
+            <form class="login_form">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+                <button class="login_btn" type="submit">Login</button>
+            </form>
+            <p onclick="goToRegisterPage()">don't you have an account? register</p>
+        </div>
+    </div>
+    <script>
+        function goToRegisterPage()
+        {
+            window.location.href = "/api/auth/register";
+        }
+    </script>
+</body>
+</html>
