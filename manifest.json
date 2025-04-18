@@ -1,4 +1,6 @@
-{ "prefer_related_applications": false,
+{
+  "prefer_related_applications": false,
+  "scope": "/",
   "name": "SuperMind Quiz",
   "short_name": "SuperMind",
   "start_url": "/",
@@ -19,3 +21,4 @@
     }
   ]
 }
+
